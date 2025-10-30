@@ -1,0 +1,30 @@
+/* === Boutons === */
+button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 0.95rem;
+}
+
+button:hover {
+  background-color: #125ca3;
+}
+
+button[value] {
+  background-color: #e53935;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+}
+
+button[value]:hover {
+  background-color: #c62828;
+}
